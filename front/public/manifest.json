@@ -1,0 +1,8 @@
+{
+  "short_name": "Flow Minter",
+  "name": "Flow Token & NFT Minter",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+} 

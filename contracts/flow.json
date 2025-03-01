@@ -1,0 +1,25 @@
+{
+  "networks": {
+    "emulator": "127.0.0.1:3569",
+    "testnet": "access.devnet.nodes.onflow.org:9000"
+  },
+  "accounts": {
+    "testnet-account": {
+      "address": "0xb6fba1379cc97f72",
+      "key": "2b199959ad8c2956b12e898e40844db105642da6a270ed8b58e7e7ce52a676d9"
+    }
+  },
+  "contracts": {
+    "ExampleToken": {
+      "source": "./ExampleToken.cdc",
+      "aliases": {
+        "testnet": "0xb6fba1379cc97f72"
+      }
+    }
+  },
+  "deployments": {
+    "testnet": {
+      "testnet-account": ["ExampleToken"]
+    }
+  }
+} 
